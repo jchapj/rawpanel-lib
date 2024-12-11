@@ -1,4 +1,4 @@
-module github.com/SKAARHOJ/rawpanel-lib
+module github.com/jchapj/rawpanel-lib
 
 go 1.19
 
