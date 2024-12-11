@@ -1,9 +1,10 @@
-module github.com/jchapj/rawpanel-lib
+module github.com/SKAARHOJ/rawpanel-lib
 
 go 1.19
 
 require (
 	github.com/SKAARHOJ/ibeam-lib-utils v1.0.0
+	github.com/SKAARHOJ/rawpanel-lib v1.2.3
 	github.com/SKAARHOJ/rawpanel-processors v1.0.0
 	github.com/s00500/env_logger v0.1.29
 	github.com/subchen/go-xmldom v1.1.2
