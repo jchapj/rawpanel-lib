@@ -545,3 +545,18 @@ func (rp *RawPanel) SendRawState(state *rwp.HWCState) {
 		},
 	}
 }
+func (rp *RawPanel) SendStates(states []*rwp.HWCState) {
+	rp.toPanel <- []*rwp.InboundMessage{
+		{
+			States: states,
+		},
+	}
+}
+
+func (rp *RawPanel) SendCommand(command *rwp.Command) {
+	rp.toPanel <- []*rwp.InboundMessage{
+		{
+			Command: command,
+		},
+	}
+}
